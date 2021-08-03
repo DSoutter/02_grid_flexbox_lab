@@ -1,0 +1,52 @@
+.title{
+    grid-area: title;
+}
+
+.caption{
+    grid-area: caption;
+}
+
+.destinations-1{
+    grid-area: destination-1;
+}
+
+.destinations-2{
+    grid-area: destination-2;
+}
+
+.destinations-3{
+    grid-area: destination-3;
+}
+
+.destinations-4{
+    grid-area: destination-4;
+}
+
+.destinations-5{
+    grid-area: destination-5;
+}
+
+.destinations-6{
+    grid-area: destination-6;
+}
+
+.popular > h3,p{
+    vertical-align: text-top;
+    text-align: center;
+}
+
+.popular{
+    justify-content: space-around;
+    display: grid;
+    grid-template-areas: 
+      'title title title'
+      'caption caption caption'
+      'destination-1 destination-2 destination-3'
+      'destination-4 destination-5 destination-6';
+}
+
+.popular > img{
+    padding: 15px;
+    width: 100%;
+}
+
