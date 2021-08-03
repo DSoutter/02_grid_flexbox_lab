@@ -1,8 +1,12 @@
 .title{
+    vertical-align: text-top;
+    text-align: center;
     grid-area: title;
 }
 
 .caption{
+    vertical-align: text-top;
+    text-align: center;
     grid-area: caption;
 }
 
@@ -28,11 +32,6 @@
 
 .destinations-6{
     grid-area: destination-6;
-}
-
-.popular > h3,p{
-    vertical-align: text-top;
-    text-align: center;
 }
 
 .popular{
